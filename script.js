@@ -14,7 +14,7 @@ async function fetchData() {
         let overallStatus = "";
         let statusClass = "normal";
 
-        if (temp > 32) {
+        if (temp > 30) {
             overallStatus += "🔥 Meleg van! ";
             statusClass = "high";
         } else if (temp < 18) {
