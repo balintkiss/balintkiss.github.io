@@ -31,7 +31,7 @@ async function fetchData() {
         }
 
         if (overallStatus === "") {
-            overallStatus = "✅ Megfelelő környezet";
+            overallStatus = '<i class="fas fa-circle-check" style="color: light-green;"></i> Megfelelő környezet';
             statusClass = "normal";
         }
 
